@@ -5,3 +5,15 @@
 # Note: Do not modify the linked list.
 
 # https://leetcode.com/problems/linked-list-cycle-ii/ # 142
+
+def detectCycle(self, head: ListNode) -> ListNode:
+    visited = set()
+    current = head
+    while current is not None:
+        if hasattr(current, 'visited'):
+            return current
+        
+        current.visited = True
+        current = current.next
+        
+    return None

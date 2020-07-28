@@ -8,6 +8,8 @@
 # Output: 7 -> 0 -> 8
 # Explanation: 342 + 465 = 807.
 
+# Approach this as adding from left to right
+
 class Solution:
     def addTwoNumbers(self, l1, l2 ,c = 0):
         """

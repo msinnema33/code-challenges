@@ -20,6 +20,8 @@
 #     def empty(self):
 #         return not self.s1
 
+
+
 ## alternate solution
 class MyQueue:
     #push is o(1), pop is amortized O(1)
